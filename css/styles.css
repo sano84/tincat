@@ -1,0 +1,175 @@
+
+/* text-align centre in the body instead of each element */
+body{
+  font-family: "Montseratt";
+  text-align: center;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+
+  font-size: 22px;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* heading section */
+
+.big-heading{
+  font-family: "Montseratt";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* making room for the navbar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+/* separating the items */
+.nav-item{
+  padding: 0 18px;
+}
+
+/*Navigation Bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montseratt";
+}
+
+/*download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+/* feature section */
+
+#features{
+  padding: 5% 3%;
+}
+
+.feature-box{
+  padding: 6%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* pseudo class for hover */
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section remove the padding 7% and 15% to carousel */
+
+#testimonials {
+  background: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* to target padding to with controls */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press {
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* another method using sublime style editor */
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* prcing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3%, 2%;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: "Montseratt-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+  #footer{
+    padding: 7% 15%;
+  }
+
+  .social-icon{
+    margin: 20px 10px;
+  }
+
+/* viewport size 1028 changing the image to static */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
